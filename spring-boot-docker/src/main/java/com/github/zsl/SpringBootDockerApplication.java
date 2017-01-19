@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AuthenticatingLdapApplication {
+public class SpringBootDockerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuthenticatingLdapApplication.class, args);
+		SpringApplication.run(SpringBootDockerApplication.class, args);
 	}
 }
